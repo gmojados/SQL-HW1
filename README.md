@@ -7,7 +7,7 @@
 - Uses conditionals
 - Inner join is like a Venn diagram with one middle section
 
-INNER JOIN example:
+ # INNER JOIN example:
 - mysql> SELECT 
     ->     fruits.fruit_name,
     ->     colors.color
@@ -24,7 +24,7 @@ INNER JOIN example:
 3 rows in set (0.00 sec)
 
 ------------------------------------
-#Outer Joins
+# Outer Joins
 -Left Outer Joins returns entire table1 and overlapping part of table 2
 
 LEFT OUTER JOIN:
@@ -40,7 +40,7 @@ select fruits.fruit_name, colors.color
 +------------+--------+
 - Left join is more common because we read from left to right.
 
-#Right Outer Joins
+# Right Outer Joins
 - Returns all the rows from the right table with the matching rows from the left table,
 - If there are no columns matching the left table it returns null values
 
